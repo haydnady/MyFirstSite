@@ -1,5 +1,11 @@
-nav{
-    background-color: burlywood;
+nav.navbar{
+    background-color: #ffcf76;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+
 }
 blockquote{
     font-style: italic;
