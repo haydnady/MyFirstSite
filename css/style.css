@@ -1,12 +1,30 @@
-nav.navbar{
+.navbar
+{
     background-color: #ffcf76;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     font-size: 20px;
-
 }
-blockquote{
+
+blockquote
+{
     font-style: italic;
+}
+
+.image
+{
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    height: auto;
+}
+
+.verticalImage
+{
+    object-fit: contain;
+    object-position: center;
+    width: auto;
+    height: 800px;
 }
