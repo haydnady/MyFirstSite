@@ -1,7 +1,8 @@
 body{
     background-color: #ffffff;
     margin: 0px;
-  }
+}
+
 header{
     background-color: #ffcf76;
     padding: 20px;
@@ -12,6 +13,7 @@ header{
     /* Shorthand */
     /* margin: 0 0 5px 0; */
 }
+
 main{
     background-color: #ffffff;
     padding: 5px;
@@ -20,10 +22,16 @@ main{
     /* Shorthand */
     /* padding: 20px 5px 50px 5px; */
 }
+
+blockquote{
+    font-style: italic;
+}
+
 footer{
     background-color: #ffcf76;
     padding: 20px;
 }
+
 .navbar
 {
     background-color: #ffcf76;
@@ -33,15 +41,14 @@ footer{
     left: 0;
     font-size: 20px;
 }
-blockquote{
-    font-style: italic;
-}
+
 .image{
     object-fit: contain;
     object-position: center;
     width: auto;
     height: 800px;
 }
+
 .verticalImage{
     object-fit: contain;
     object-position: center;
